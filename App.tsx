@@ -241,7 +241,12 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   acoes: {
+    //display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 60,
     marginTop: 10,
+    
   },
   botaoContainer: {
     marginBottom: 12,
